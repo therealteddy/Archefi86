@@ -33,7 +33,7 @@ Then,
 
 #### Linux 
     lsblk 
-    git clone --recursive 
+    git clone --recursive https://github.com/cyber-ted/Archefi86.git
     cd Archefi86/ 
     cp ./* /dev/sdX
     
@@ -45,7 +45,7 @@ You know the drill; copy everything in this repo to your (Arch Installer) USB dr
 
 #### Mac OS
     diskutil list          
-    git clone --recursive 
+    git clone --recursive https://github.com/cyber-ted/Archefi86.git
     cd Archefi86/ 
     cp ./* /dev/sdX
     
