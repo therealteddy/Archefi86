@@ -65,7 +65,7 @@ If you used a program like rufus to flash your installation image then, the name
 ## Menu Entries 
 
 As of today there are 'Arch specific' menuentries, and they are: (i) Intel, (ii) AMD and (iii) Universal 
-Choose, Intel for intel CPUs, AMD for AMD Processors and Universal if you're not sure of your CPU
+Choose, Intel for intel CPUs, AMD for AMD Processors and Universal if you're not sure of your CPU <br /> 
 NB: This config only works on x86 or x86_64 systems with an Unified Extensible Firmware Interface (UEFI) 32Bits 
 If you happen to have UEFI 64bit, you're in the wrong place; arch linux officaially supports you guys.
 
