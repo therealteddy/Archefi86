@@ -4,7 +4,7 @@ Everything you need to install Arch Linux 64Bit in UEFI32.
 
 ## Dependencies 
 
-git -> If you wish to clone the repo
+git -> If you wish to clone the repo <br /> 
 unzip -> If you want to download the Archefi86.zip and then unzip it. 
 
 ### Linux 
@@ -18,11 +18,11 @@ unzip -> If you want to download the Archefi86.zip and then unzip it.
 #### Debian 
     sudo apt-get install git unzip 
     
-### Windows 
+#### Windows 
 
 WinRAR -> https://www.win-rar.com/download.html
 
-### MacOS 
+#### MacOS 
 Any Unzipping application (Good luck finding one that ain't a joke!)
 
 ## How to... 
@@ -31,7 +31,7 @@ You need a windows computer or any program that writes your arch ISO in 'ISO Mod
 
 Then, 
 
-### Linux 
+#### Linux 
     lsblk 
     git clone --recursive 
     cd Archefi86/ 
@@ -39,11 +39,11 @@ Then,
     
 Where, sdX is your USB drive. 
 
-### Windows 
+#### Windows 
 
 You know the drill; copy everything in this repo to your (Arch Installer) USB drive. 
 
-### Mac OS
+#### Mac OS
     diskutil list          
     git clone --recursive 
     cd Archefi86/ 
@@ -55,9 +55,9 @@ Where, sdX is your USB drive.
 
 Open grub.cfg in your PC; To do so, type: 
 
-Linux:     vim ./boot/grub/grub.cfg 
-Mac: Just dbl click on it while on finder! :) 
-Windows:     notepad ./boot/grub/grub.cfg 
+Linux: vim ./boot/grub/grub.cfg <br /> 
+Mac: Just dbl click on it while on finder! :) <br />  
+Windows: notepad ./boot/grub/grub.cfg  
 
 And replace 'USB-NAME' with the name of your USB stick as shown in your File Manager/Finder/This PC etc
 If you used a program like rufus to flash your installation image then, the name of the USB stick should look something like ARCH_202207, or should atleast start with ARCH_2XXXXXX for the next 978 years. 
@@ -72,9 +72,9 @@ If you happen to have UEFI 64bit, you're in the wrong place; arch linux officaia
 ### HOW TO KNOW IF YOU HAVE EFI32!?
 If your arch installer did'nt boot you into the live installation environment, then there is a high chance that you have an UEFI 32bit, in which case this repo should possibly fix it. 
 
-## Problems ??? 
+## Problems? 
 Just mail me at tedjoshissac@gmail.com
 
 ## Conclusion 
-After cpoing the repository to your arch installer, just boot into it and select Universal or (a menu entry according to your CPU Manufacturer).
+After copying the repository to your arch installer, just boot into it and select Universal or (a menu entry according to your CPU Manufacturer).
 Enjoy! and Take it easy!
