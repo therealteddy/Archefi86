@@ -20,7 +20,7 @@ unzip -> If you want to download the Archefi86.zip and then unzip it.
     
 #### Windows 
 
-[WinRAR] (https://www.win-rar.com/download.html)
+[WinRAR](https://www.win-rar.com/download.html)
 
 #### MacOS 
 Any Unzipping application (Good luck finding one that ain't a joke!)
@@ -56,7 +56,7 @@ Where, sdX is your USB drive.
 Open grub.cfg in your PC; To do so, type: 
 
 #### Linux: 
-    vim ./boot/grub/grub.cfg <br /> 
+    vim ./boot/grub/grub.cfg 
 
 #### Mac: 
 
