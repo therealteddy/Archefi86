@@ -20,7 +20,7 @@ unzip -> If you want to download the Archefi86.zip and then unzip it.
     
 #### Windows 
 
-WinRAR -> https://www.win-rar.com/download.html
+[WinRAR] (https://www.win-rar.com/download.html)
 
 #### MacOS 
 Any Unzipping application (Good luck finding one that ain't a joke!)
@@ -55,9 +55,15 @@ Where, sdX is your USB drive.
 
 Open grub.cfg in your PC; To do so, type: 
 
-Linux: vim ./boot/grub/grub.cfg <br /> 
-Mac: Just dbl click on it while on finder! :) <br />  
-Windows: notepad ./boot/grub/grub.cfg  
+#### Linux: 
+    vim ./boot/grub/grub.cfg <br /> 
+
+#### Mac: 
+
+Just double click on it while on finder! :) <br />  
+
+#### Windows: 
+    notepad ./boot/grub/grub.cfg  
 
 And replace 'USB-NAME' with the name of your USB stick as shown in your File Manager/Finder/This PC etc
 If you used a program like rufus to flash your installation image then, the name of the USB stick should look something like ARCH_202207, or should atleast start with ARCH_2XXXXXX for the next 978 years. 
