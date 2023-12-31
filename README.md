@@ -4,8 +4,8 @@ Everything you need to install Arch Linux 64Bit in UEFI32.
 
 ## Dependencies 
 
-git -> If you wish to clone the repo <br /> 
-unzip -> If you want to download the Archefi86.zip and then unzip it. 
+[git](https://git-scm.com/)
+[unzip](https://linux.die.net/man/1/unzip)
 
 ### Linux 
     
